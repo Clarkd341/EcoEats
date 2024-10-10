@@ -1,0 +1,51 @@
+
+/* cacher les sections non actives */
+.section {
+    display: none; 
+    opacity: 0;    
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /*  afficher la section active */
+  .section.active {
+    display: block; 
+    opacity: 3;     
+  }
+  
+  /* animation pour le texte et l'image */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);  
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);        
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);  
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);    
+      opacity: 0;
+    }
+  }
+  
+  /*  éléments de la section active */
+  .section.active img,
+  .section.active p {
+    animation: slideIn 1s ease forwards;
+  }
+  
+  /* Animation éléments non actifs */
+  .section:not(.active) img,
+  .section:not(.active) p {
+    animation: slideOut 1s ease forwards;
+  }
+  
+  
+
