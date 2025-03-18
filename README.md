@@ -1,20 +1,20 @@
 site web EcoEat.
 
-Langages et technologies :
+Technologies et langages :
+• Utilisation de HTML pour la structuration des pages.
+• CSS pour le stylage et les animations.
+• JavaScript pour l'incorporation d'interactions dynamiques et la réalisation d'une présentation automatique. 
+• Mise en œuvre de Bootstrap pour la conception réactive et la barre de navigation. 
 
-HTML pour la structure des pages.
-CSS pour la mise en page et les animations.
-JavaScript pour ajouter des interactions dynamiques et un diaporama automatique.
-Bootstrap pour la barre de navigation et la mise en page responsive.
-Outils et logiciels :
+Outils et logiciels : 
+• Utilisation de Visual Studio Code pour l'édition de code. 
+• WAMP pour réaliser des essais locaux sur le site web. 
+• Usage de navigateurs internet (comme Chrome, Firefox) pour vérifier l'affichage et la compatibilité. 
 
-Visual Studio Code pour l’édition du code.
-WAMP pour tester le site en local.
-Navigateurs web (Chrome, Firefox) pour vérifier l’affichage et la compatibilité.
-Fichiers principaux du projet :
+Fichier page principale du site internet :
+• mention.html : Page qui regroupe les mentions légales. 
+• styles.css : Feuille de style employée pour la présentation et les animations. 
+• script.js : Script employé pour les animations et le diaporama automatique.
 
-index.html : Page d’accueil du site.
-mention.html : Page des mentions légales.
-styles.css : Feuille de style pour la mise en page et les animations.
-script.js : Script pour les animations et le diaporama automatique.
+
 
